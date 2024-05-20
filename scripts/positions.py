@@ -34,11 +34,13 @@ def get_positions(mode):
     # Select random start and target positions
     if mode == "easy":
         initial_position = random.choice(list(easypositions.keys()))
-        final_position = random.choice(easypositions[initial_position])
+        #final_position = random.choice(easypositions[initial_position])
+        final_position = easypositions[initial_position]
     
     elif mode == "hard":
         initial_position = random.choice(list(hardpositions.keys()))
-        final_position = random.choice(hardpositions[initial_position])
+        #final_position = random.choice(hardpositions[initial_position])
+        final_position = hardpositions[initial_position]
 
 
     return initial_position, final_position
