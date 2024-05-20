@@ -26,8 +26,7 @@ class WebotsEnv(gym.Env):
         self.gps.enable(timestep)
         self.compass: Compass = supervisor.getDevice('compass')
         self.compass.enable(timestep)
-        self.robotpos = get_positions("easy")[0]
-        self.targetpos = get_positions("easy")[1]
+        self.robotpos, self.targetpos = get_positions("easy")
 
     def step(self, action):
                 # Perform action
