@@ -33,9 +33,12 @@ WebotsRL is a project that implements reinforcement learning for path planning i
 
 ### Project Structure
 
+- `scripts/`: Contains utils.py and positions.py.
 - `worlds/`: Contains Webots world files.
-- `models/`: Contains the robot and object models.
+- `FINAL.zip`: The final model.
+- `Report.pdf`: Project's report.
 - `README.md`: Project documentation.
+- `environmentv6.py`: RL environment and model training.
 
 
 ## Acknowledgements
@@ -43,6 +46,16 @@ WebotsRL is a project that implements reinforcement learning for path planning i
 - Webots (https://cyberbotics.com/)
 - OpenAI Gym (https://gym.openai.com/)
 - Stable Baselines3 (https://stable-baselines3.readthedocs.io/)
+
+
+
+
+
+
+
+
+
+
 
 
 
