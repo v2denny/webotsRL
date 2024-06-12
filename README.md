@@ -19,8 +19,6 @@ WebotsRL is a project that implements reinforcement learning for path planning i
    git clone https://github.com/v2denny/webotsRL.git
    cd webotsRL
 2. Create a virtual environment (optional but recommended) using the env.yaml file
-3. Install the required packages:
-   pip install -r requirements.txt
 
 ## Usage
 
