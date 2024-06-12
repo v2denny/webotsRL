@@ -30,11 +30,12 @@ WebotsRL is a project that implements reinforcement learning for path planning i
 
 1. Open Webots and load the project world:
    webots worlds/your_world_file.wbt
+2. Run the training code:
+   python evironmentv6
 
 ### Project Structure
 
 - `worlds/`: Contains Webots world files.
-- `controllers/`: Contains controller scripts for the robot.
 - `models/`: Contains the robot and object models.
 - `README.md`: Project documentation.
 
