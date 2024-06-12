@@ -30,24 +30,14 @@ WebotsRL is a project that implements reinforcement learning for path planning i
 
 1. Open Webots and load the project world:
    webots worlds/your_world_file.wbt
-2. Run the RL training script:
-   python train.py
-3. To test the trained model:
-   python test.py
-   
+
 ### Project Structure
 
 - `worlds/`: Contains Webots world files.
 - `controllers/`: Contains controller scripts for the robot.
 - `models/`: Contains the robot and object models.
-- `train.py`: Script to train the RL model.
-- `test.py`: Script to test the trained RL model.
 - `README.md`: Project documentation.
 
-### Example
-
-Here is a brief example of how to run the training script:
-   python train.py --env MyEnvironment --timesteps 100000
 
 ## Acknowledgements
 
